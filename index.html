@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+
+    <!-- imported CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Connectiong JS file -->
+</head>
+<body style="background-image: url('https://www.thoughtco.com/thmb/sYYVt5UeqoHdP9O_WCtKPjPXZcU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/thermometer-sun-high-degres--hot-summer-day--high-summer-temperatures-1010691618-2a5ca45876424dffbef441d73ae896b8.jpg'); width: auto;">
+    <div class="container">
+        <h1>Temperature Conversion</h1>
+        <hr>
+        <div class="dropdown">
+            <div class="dropdown1 dropitem" id="dropdown-1">
+                <input type="number" id="temp1value"/>
+                <select name="temperature1" id="temperature1">
+                    <option value="cel"> Degree Celcius</option>
+                    <option value="farehn"> Degree Farenhite</option>
+                    <option value="kel"> Kelvin</option>
+                </select>
+            </div>
+            <div class="dropdown2 dropitem" id="dropdown-2">
+                <input type="number" id="temp2value">
+                <select name="temperature2" id="temperature2">
+                    <option value="cel"> Degree Celcius</option>
+                    <option value="farehn"> Degree Farenhite</option>
+                    <option value="kel">Kelvin</option>
+                </select>
+            </div>
+        </div>
+        <button type="convert" id="convertBtn">Convert</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
