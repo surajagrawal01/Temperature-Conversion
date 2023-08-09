@@ -26,7 +26,7 @@ To use the Temperature Conversion Project, follow these steps:
 
    Here's how you can clone and run the project locally:
 
-1. Clone the repository: `git clone https://github.com/yourusername/temperature-conversion.git`
+1. Clone the repository: `git clone https://github.com/surajagrawal01/Temperature-Conversion.git`
 2. Navigate to the project folder: `cd Temperature-conversion`
 3. Open `index.html` in your preferred browser.
 
