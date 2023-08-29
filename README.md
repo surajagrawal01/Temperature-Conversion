@@ -13,8 +13,6 @@ This project demonstrates the following:
   [Usage](#usage)
   [File Structure](#file-structure)
   [Contributing](#contributing)
-  [License](#license)
-  [Contact](#contact)
 
 ## Usage
 To use the Temperature Conversion Project, follow these steps:
